@@ -179,6 +179,9 @@
   "metadata": {
     "timestamp": true
   },
+  "thumbnails": {
+    "background": "/images/og-background.png"
+  },
   "seo": {
     "indexing": "all",
     "metatags": {

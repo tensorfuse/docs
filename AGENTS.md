@@ -43,3 +43,16 @@
   "Week of Jun 29, 2026", sections "### ✨ New & improved" and "### 🐛 Fixed",
   consumer language only — lead with user impact, never implementation.
 - When renaming/moving a page, add a `redirects` entry in `docs.json` in the same change.
+
+## SEO maintenance
+
+- Once the custom domain is live (e.g. help.whip.run), set
+  `"seo": { "metatags": { "canonical": "https://<domain>" } }` in `docs.json` — Mintlify
+  appends each page's path automatically. Don't set it before the domain is final.
+- Social/AI share cards use `/images/og-background.png` (via `thumbnails.background`) with
+  the page title, description, and logo overlaid automatically — keep any replacement
+  1200×630 and subtle enough for dark text.
+- When screenshots are added, every image needs descriptive alt text (AI engines can't see
+  images) and a descriptive filename; wrap screenshots in `<Frame caption="…">`.
+- Don't add a custom `robots.txt` or `sitemap.xml` — Mintlify's defaults allow AI crawlers
+  (GPTBot, ClaudeBot, PerplexityBot) via Content-Signal, and a custom file replaces that.
