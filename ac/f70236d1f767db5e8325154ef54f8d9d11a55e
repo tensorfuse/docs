@@ -1,0 +1,20 @@
+docs.json
+  s_4b8f6cd46a0c59::t_85052f2f8a5675 161-163
+  s_4b8f6cd46a0c59::t_c1312afe6d25e8 146-148
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.8",
+  "base_commit_sha": "acf70236d1f767db5e8325154ef54f8d9d11a55e",
+  "prompts": {},
+  "sessions": {
+    "s_4b8f6cd46a0c59": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "28bcca74-7f1f-4a55-9832-8aa0174f21c8",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Samagra Sharma <samagra14@gmail.com>"
+    }
+  }
+}
