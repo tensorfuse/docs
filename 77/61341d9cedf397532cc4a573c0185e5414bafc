@@ -1,0 +1,28 @@
+icons/discord.svg
+  s_4b8f6cd46a0c59::t_57584d571d6989 1
+icons/instagram.svg
+  s_4b8f6cd46a0c59::t_57584d571d6989 1
+help/contact.mdx
+  s_4b8f6cd46a0c59::t_0e025f0a3d5265 47
+docs.json
+  s_4b8f6cd46a0c59::t_1cbbef34c4dfe5 149-151
+  s_4b8f6cd46a0c59::t_92e5b205b2c4c6 12-14
+  s_4b8f6cd46a0c59::t_18a8ce7855cb96 165
+  s_4b8f6cd46a0c59::t_6f73d9aa401eb7 164
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.8",
+  "base_commit_sha": "7761341d9cedf397532cc4a573c0185e5414bafc",
+  "prompts": {},
+  "sessions": {
+    "s_4b8f6cd46a0c59": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "28bcca74-7f1f-4a55-9832-8aa0174f21c8",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Samagra Sharma <samagra14@gmail.com>"
+    }
+  }
+}
