@@ -143,9 +143,9 @@
           "icon": "globe"
         },
         {
-          "anchor": "Community",
-          "href": "https://discord.com/invite/bsSeNMQkTZ",
-          "icon": "discord"
+          "anchor": "Support",
+          "href": "mailto:support@whip.run",
+          "icon": "life-buoy"
         }
       ]
     }
@@ -158,8 +158,9 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@whip.run"
+        "label": "Discord community",
+        "icon": "discord",
+        "href": "https://discord.com/invite/bsSeNMQkTZ"
       }
     ],
     "primary": {
