@@ -1,0 +1,140 @@
+---
+title: "Whip app permissions: camera, location, and more"
+sidebarTitle: "App permissions"
+description: "How app permissions work on Whip. Apps must ask before using your camera, location, microphone, or motion — and you can review or revoke access anytime."
+icon: "shield-check"
+keywords:
+  [
+    "whip app permissions",
+    "whip camera location access",
+    "whip microphone permission",
+    "revoke whip permissions",
+    "whip app access",
+  ]
+---
+
+On Whip, an app has to **ask before it can use your camera, location, microphone, or motion sensors**. The first time an app tries, a native **Allow / Deny** dialog appears — and your answer applies to that one app only. You can review and revoke everything anytime in **Settings → Permissions**.
+
+## How the ask works
+
+When an app wants a sensitive feature, Whip pauses and shows a system-style dialog: the app's name, what it wants to use ("wants to access your location"), a one-line explanation, and two buttons — **Allow** and **Deny**.
+
+<Steps>
+  <Step title="An app tries to use a sensor" icon="camera">
+    Say a photo-booth app opens the camera, or a compass app checks your
+    location.
+  </Step>
+  <Step title="You get an Allow / Deny dialog" icon="shield-question">
+    The dialog names the app and the feature so you always know who's asking and
+    why.
+  </Step>
+  <Step title="Your choice sticks" icon="check">
+    Tap **Allow** and the app can use that feature going forward — you won't be
+    asked again for it. Tap **Deny** and it can't; it may ask again next time you
+    open the app.
+  </Step>
+</Steps>
+
+<Note>
+  Permissions are **per app**. Allowing the camera for one app grants nothing to
+  any other app — and an app can never quietly reuse a permission you gave to a
+  different app, or one you gave to Whip itself. Every app earns your trust on
+  its own.
+</Note>
+
+## The four that ask
+
+These four sensitive features always trigger the Allow / Deny dialog the first time an app reaches for them:
+
+<AccordionGroup>
+  <Accordion title="Camera" icon="camera">
+    For apps that take photos or record video — a photo-to-sketch tool, say.
+  </Accordion>
+  <Accordion title="Location" icon="map-pin">
+    For apps that use where you are — a "what's near me" app or a local weather
+    toy.
+  </Accordion>
+  <Accordion title="Microphone" icon="mic">
+    For apps that record audio — a karaoke app or a voice-reactive visual.
+  </Accordion>
+  <Accordion title="Motion sensors" icon="activity">
+    For apps that respond to tilt and movement — a balance game or a level tool.
+  </Accordion>
+</AccordionGroup>
+
+## Photos and clipboard are different
+
+Two things don't follow the Allow / Deny pattern:
+
+<AccordionGroup>
+  <Accordion title="Photos use the standard picker" icon="image">
+    When an app needs a photo, it opens your device's normal photo picker.
+    Choosing a photo *is* the permission — you hand over exactly the image you
+    pick, nothing more. Apps can't force the camera open instead; you always get
+    the choice between camera and gallery.
+  </Accordion>
+  <Accordion title="Clipboard reading is never allowed" icon="clipboard-x">
+    Apps on Whip can **never read your clipboard** — there's no dialog for it
+    because the answer is always no. (An app can copy text *to* your clipboard
+    when that's a feature, which is harmless.)
+  </Accordion>
+</AccordionGroup>
+
+## Review and revoke anytime
+
+Head to **Settings → Permissions** to see which apps you've granted sensitive access to. Each app is listed with the features you've allowed, and you can switch any of them off.
+
+Turn a permission off and Whip confirms with **Revoke access?** — the app loses that access immediately and will ask again the next time it needs it. If you haven't granted anything yet, the list reads **No permissions granted**.
+
+<Warning>
+  This screen manages the permissions apps ask Whip for. It's separate from your
+  phone's own Settings app. Some capabilities — like [saving your data or an
+  in-app AI chat](/using/data-ai-and-consent) — aren't sensor permissions; you
+  approve those with a one-time consent sheet before the app opens instead.
+</Warning>
+
+## Built to be trustworthy
+
+Whip is built with strong safeguards so an app **can't fake a system prompt** or trick you into granting access. The dialog you see is the real thing, shown by Whip — not something the app drew to look official. And you're never re-asked for something you've already granted, so the prompts stay meaningful.
+
+<Tip>
+  A quick gut-check: does the ask match what the app does? A drawing app wanting
+  the camera makes sense. A calculator wanting your location doesn't — tap
+  **Deny**, and [report it](/account/report-content) if it feels wrong.
+</Tip>
+
+## Common questions
+
+<AccordionGroup>
+  <Accordion title="Will one app's permission carry to another?" icon="shield">
+    Never. Each app asks for itself. Granting the camera to one app grants
+    nothing to any other.
+  </Accordion>
+  <Accordion title="How do I take back a permission?" icon="undo-2">
+    Open **Settings → Permissions**, find the app, and toggle the feature off.
+    It's revoked right away and will ask again if it needs that feature later.
+  </Accordion>
+  <Accordion title="Can an app secretly use my camera or mic?" icon="eye-off">
+    No. It can't use any of the four sensitive features until you tap **Allow**,
+    and the prompt always names the app so you know exactly who's asking.
+  </Accordion>
+</AccordionGroup>
+
+## Related
+
+<CardGroup cols={2}>
+  <Card
+    title="Data, AI, and consent"
+    icon="shield-check"
+    href="/using/data-ai-and-consent"
+  >
+    The consent sheet for saving, AI, and internet access.
+  </Card>
+  <Card
+    title="Privacy and your data"
+    icon="lock"
+    href="/account/privacy-and-data"
+  >
+    What Whip stores, and how your information is handled.
+  </Card>
+</CardGroup>
