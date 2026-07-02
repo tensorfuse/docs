@@ -1,0 +1,149 @@
+help/troubleshooting.mdx
+  s_4b8f6cd46a0c59::t_8e76ef9cd0be31 1-3,5-21,23-67,69-105
+  s_4b8f6cd46a0c59::t_76a2bc7cb6c65c 68
+  s_4b8f6cd46a0c59::t_84931a6b67d3bb 4
+  s_4b8f6cd46a0c59::t_d0601936569bd6 22
+account/block-users.mdx
+  s_4b8f6cd46a0c59::t_db23281f32c32f 47-48
+  s_4b8f6cd46a0c59::t_c6a5b6d7f1ebf1 53
+  s_4b8f6cd46a0c59::t_e7d88a51dbfb30 1-46,49-52,54-99
+getting-started/download-and-sign-in.mdx
+  s_4b8f6cd46a0c59::t_6c618830d034f1 1-72,74-117
+  s_4b8f6cd46a0c59::t_e800f14815fdb3 73
+sharing/highlight-reels.mdx
+  s_4b8f6cd46a0c59::t_04b60901e98b55 1-114
+.claude/launch.json
+  s_4b8f6cd46a0c59::t_241565da45cbfc 1-11
+building/edit-your-app.mdx
+  s_4b8f6cd46a0c59::t_23440796e8cf43 1-15,17-120
+  s_4b8f6cd46a0c59::t_e16262badd0cdd 16
+using/home-screen-and-folders.mdx
+  s_4b8f6cd46a0c59::t_8767bba3a56c06 1-147
+index.mdx
+  s_4b8f6cd46a0c59::t_0fc9004f06a3ae 4
+  s_4b8f6cd46a0c59::t_a5ff6c6c9a54d3 2-3,5-13,16-121
+account/report-content.mdx
+  s_4b8f6cd46a0c59::t_f608f5584992c0 4
+  s_4b8f6cd46a0c59::t_aa06b1260e53b5 46-47
+  s_4b8f6cd46a0c59::t_187d3027c716f0 1-3,5-45,48-113
+discover/the-feed.mdx
+  s_4b8f6cd46a0c59::t_b4b115fc1ee9e9 1-124
+discover/search.mdx
+  s_4b8f6cd46a0c59::t_a0dd021aecbf84 74
+  s_4b8f6cd46a0c59::t_1df3be0ab52d50 1-73,75-99
+getting-started/set-up-your-profile.mdx
+  s_4b8f6cd46a0c59::t_8e1777ca719452 1-33,35-112
+  s_4b8f6cd46a0c59::t_6b1dea7fdab1d0 34
+building/prompt-tips-and-ideas.mdx
+  s_4b8f6cd46a0c59::t_d8fd473e534c9d 1-138
+account/age-requirements.mdx
+  s_4b8f6cd46a0c59::t_398bcea93b3506 1-44,46-82
+  s_4b8f6cd46a0c59::t_32173895bf0eeb 45
+logo/light.svg
+  s_4b8f6cd46a0c59::t_9f3cdd6898a4fc 1-4
+logo/dark.svg
+  s_4b8f6cd46a0c59::t_9f3cdd6898a4fc 1-4
+sharing/share-links.mdx
+  s_4b8f6cd46a0c59::t_b680c52346b9a2 1-107
+building/how-whip-builds-your-app.mdx
+  s_4b8f6cd46a0c59::t_ab12f4e78d014b 79
+  s_4b8f6cd46a0c59::t_7ded8cecae994d 1-3,5-78,80-119
+  s_4b8f6cd46a0c59::t_c965e3f90633df 4
+using/app-permissions.mdx
+  s_4b8f6cd46a0c59::t_765a14c482b1e4 1-86,88-140
+  s_4b8f6cd46a0c59::t_0c5709ef9bc983 87
+building/build-limits-and-failed-builds.mdx
+  s_4b8f6cd46a0c59::t_4a3455c63ed837 16
+  s_4b8f6cd46a0c59::t_90b17a15bd0cdd 1-15,17-40,42-124
+  s_4b8f6cd46a0c59::t_60407013922f76 41
+building/attachments.mdx
+  s_4b8f6cd46a0c59::t_056f01a7467c20 1-118
+getting-started/create-your-first-app.mdx
+  s_4b8f6cd46a0c59::t_aacbd07189eb6d 1-147
+using/open-and-use-apps.mdx
+  s_4b8f6cd46a0c59::t_9c2db44ca456a0 1-114
+help/contact.mdx
+  s_4b8f6cd46a0c59::t_d8644f60747888 32-40
+  s_4b8f6cd46a0c59::t_a415eec856a2eb 1-19,21-31,41-79
+  s_4b8f6cd46a0c59::t_48ec0e42016f82 20
+changelog.mdx
+  s_4b8f6cd46a0c59::t_35bb4e6f8d4edd 1-523
+sharing/publish-your-app.mdx
+  s_4b8f6cd46a0c59::t_12995472c869dd 48-49
+  s_4b8f6cd46a0c59::t_e4fc65835cdb2d 1-47,50-127
+social/notifications.mdx
+  s_4b8f6cd46a0c59::t_9738aa84ba9177 1-126
+README.md
+  s_4b8f6cd46a0c59::t_5acb1bcbbac50c 1,3-4,6-7,9,12-13,16,18,20-23,25
+docs.json
+  s_4b8f6cd46a0c59::t_c1fbd9653b7f40 214-215
+  s_4b8f6cd46a0c59::t_235cd39ec2d7ef 179-181
+  s_4b8f6cd46a0c59::t_db123002e765da 92
+  s_4b8f6cd46a0c59::t_ae99715b4a1d72 4-5,7-9,12-34,36,38-91,93-131,133,140-142,145-147,154-155,161,166-167,176,182-193,196-198,234
+  s_4b8f6cd46a0c59::t_8118e399a1ae5e 199-213,216-232
+social/profiles.mdx
+  s_4b8f6cd46a0c59::t_a1be52956bb701 1-32,34-125
+  s_4b8f6cd46a0c59::t_dd6b30ec491170 33
+sharing/unpublish-and-archive.mdx
+  s_4b8f6cd46a0c59::t_0bac123fd5dc06 1-3,5-107
+  s_4b8f6cd46a0c59::t_6e0d89dca05c7b 4
+building/what-apps-can-do.mdx
+  s_4b8f6cd46a0c59::t_9d64f29e0e6b9b 27
+  s_4b8f6cd46a0c59::t_ba75fedd2672f3 1-26,28-97
+faq/creating-apps.mdx
+  s_4b8f6cd46a0c59::t_2bf7c7b6825d50 1-115
+account/manage-your-account.mdx
+  s_4b8f6cd46a0c59::t_3aa8021504838c 1-118
+building/versions-and-history.mdx
+  s_4b8f6cd46a0c59::t_d91fb2c3ad6d83 67
+  s_4b8f6cd46a0c59::t_2a5ba729ee0ca0 70
+  s_4b8f6cd46a0c59::t_18d6912c791a94 1-42,44-66,68-69,71-112
+  s_4b8f6cd46a0c59::t_e854268c2710fe 43
+discover/remix-apps.mdx
+  s_4b8f6cd46a0c59::t_29935f809729c0 1-50,52-77,79-115
+  s_4b8f6cd46a0c59::t_b4a83f182dadda 78
+  s_4b8f6cd46a0c59::t_ad81a816fbdb06 51
+faq/privacy-and-safety.mdx
+  s_4b8f6cd46a0c59::t_cdb8e12d8aa2c0 1-69,71-128
+  s_4b8f6cd46a0c59::t_e5c5bf7b668adf 70
+account/delete-your-account.mdx
+  s_4b8f6cd46a0c59::t_60e05a21c66a38 41
+  s_4b8f6cd46a0c59::t_fc2f787b7bd5bc 64
+  s_4b8f6cd46a0c59::t_b912fe2b3659f0 86
+  s_4b8f6cd46a0c59::t_6c6e02c15e67b8 1-40,42-63,65-85,87-117
+using/play-together.mdx
+  s_4b8f6cd46a0c59::t_6ab8a4631ad5a8 84
+  s_4b8f6cd46a0c59::t_e52bd14ae95949 1-83,85-124
+AGENTS.md
+  s_4b8f6cd46a0c59::t_4c1a3f2fa78f04 1,5-11,15-20,24-32,36-45
+faq/general.mdx
+  s_4b8f6cd46a0c59::t_60f6d831e0c331 1-128
+favicon.svg
+  s_4b8f6cd46a0c59::t_9f3cdd6898a4fc 1-6
+social/comments.mdx
+  s_4b8f6cd46a0c59::t_9d476e8686d917 1-116
+account/privacy-and-data.mdx
+  s_4b8f6cd46a0c59::t_9f6c6dd38e89f5 1-108
+social/follow-like-save.mdx
+  s_4b8f6cd46a0c59::t_77bbdc453be58d 1-112
+using/data-ai-and-consent.mdx
+  s_4b8f6cd46a0c59::t_48c27de149c5a5 1-27,30-62,64-124
+  s_4b8f6cd46a0c59::t_39371cf299c968 28-29
+  s_4b8f6cd46a0c59::t_503efde26a5906 63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.8",
+  "base_commit_sha": "9aedf316a66377551efa6e90c7224402b00fcdb3",
+  "prompts": {},
+  "sessions": {
+    "s_4b8f6cd46a0c59": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "28bcca74-7f1f-4a55-9832-8aa0174f21c8",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Samagra Sharma <samagra14@gmail.com>"
+    }
+  }
+}
