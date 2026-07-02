@@ -1,0 +1,124 @@
+---
+title: "Whip build limits and failed builds"
+sidebarTitle: "Limits & failed builds"
+description: "Whip's daily build limit, what to do when a build fails or gets stuck, and a simple recovery playbook. Honest, reassuring answers to common build worries."
+icon: "triangle-alert"
+keywords:
+  [
+    "whip build failed",
+    "whip daily limit",
+    "whip app stuck building",
+    "whip build error",
+    "whip generation limit",
+  ]
+---
+
+Building, editing, and remixing on Whip share one daily pool — up to **50 a day** (with shorter caps of 15 an hour and 3 a minute), and it resets on its own. Builds usually go smoothly — they retry themselves if something goes wrong, keep your progress if they hit a ceiling, and fail with a clear message rather than spinning forever. Here's the full picture.
+
+## Your daily building limit
+
+Everything that generates an app — [creating](/getting-started/create-your-first-app), [editing](/building/edit-your-app), and [remixing](/discover/remix-apps) — draws from the same shared pool.
+
+<CardGroup cols={2}>
+  <Card title="Up to 50 a day" icon="calendar">
+    That's plenty for a busy building session. There are also shorter limits of
+    about 15 an hour and 3 a minute to keep things running smoothly for everyone.
+  </Card>
+  <Card title="It resets on its own" icon="refresh-cw">
+    You don't do anything — the limit refreshes automatically. If you hit it,
+    Whip shows a friendly dialog telling you when you can build again.
+  </Card>
+</CardGroup>
+
+<Note>
+  These numbers can evolve over time. If you're regularly hitting the ceiling and
+  want more room, the [Whip Discord](https://discord.com/invite/bsSeNMQkTZ) is
+  the place to ask.
+</Note>
+
+## When a build hits a ceiling mid-way
+
+A really ambitious build can get too big or complex to finish in one go. When that happens, Whip doesn't throw your work away — it stops, keeps your progress, and shows a message like *"send a message to continue building from where it left off."* Reply in the chat and the AI carries on. It's a pause, not a dead end.
+
+## Stopping a build yourself
+
+Changed your mind partway through a build? You can stop it anytime. Whip keeps the partial work as a version, so you can pick it back up later by sending another message — nothing you've built so far is lost.
+
+## When a build fails
+
+Two things happen automatically before you ever see an error:
+
+- **Whip retries — up to 3 times.** Most temporary hiccups are fixed on their own, quietly, without you lifting a finger.
+- **Genuinely stuck builds time out** with a clear error instead of spinning forever. If a build can't finish, Whip tells you plainly rather than leaving you waiting.
+
+A failed build never eats your idea or your [version history](/building/versions-and-history). The fix is almost always the same: send another message.
+
+## Recovery playbook
+
+If a build failed or stopped, work through these in order — most issues clear up at step 1 or 2.
+
+<Steps>
+  <Step title="Reopen the chat" icon="message-circle">
+    Head back into the same conversation for your app. Your idea, your history,
+    and any [attachments](/building/attachments) are all still there.
+  </Step>
+  <Step title="Send a message to continue" icon="send">
+    Reply in the chat to pick up where it left off — repeat your request, or
+    reword it slightly. This alone recovers most failed or stopped builds.
+  </Step>
+  <Step title="Simplify the ask" icon="scissors">
+    If it keeps struggling, try a leaner version of the request. Ask for the core
+    thing first; you can layer on extras once it's working.
+  </Step>
+  <Step title="Split big ideas into steps" icon="list">
+    Break one giant request into a few smaller ones — build the base, then add
+    features one message at a time. [Prompt
+    tips](/building/prompt-tips-and-ideas) has more on this.
+  </Step>
+</Steps>
+
+## When to contact support
+
+Most build troubles resolve with another message. But if an app is stuck across several tries, or something clearly isn't working right, email **support@whip.run** with your app's name and what you were trying to do. You can also check [troubleshooting](/help/troubleshooting) for more fixes.
+
+## Common questions
+
+<AccordionGroup>
+  <Accordion title="Did I lose my work when the build failed?" icon="shield-check">
+    No. A failed build doesn't wipe your idea or your earlier
+    [versions](/building/versions-and-history). Send another message to continue.
+  </Accordion>
+  <Accordion title="My app seems stuck building — what now?" icon="loader">
+    Give it a moment; ambitious builds take longer. If it's genuinely stuck, Whip
+    times it out with a clear error rather than hanging forever, and you can send
+    a message to try again.
+  </Accordion>
+  <Accordion title="I hit my daily limit — can I get more?" icon="calendar-clock">
+    Your limit resets on its own, so waiting is the simplest fix. If you need
+    more room regularly, ask on the [Whip
+    Discord](https://discord.com/invite/bsSeNMQkTZ).
+  </Accordion>
+  <Accordion title="Do edits and remixes count toward the limit?" icon="layers">
+    Yes. Creating, editing, and remixing all share the same daily pool of up to
+    50 — see [editing your app](/building/edit-your-app) for how edits work.
+  </Accordion>
+</AccordionGroup>
+
+## Related
+
+<CardGroup cols={2}>
+  <Card
+    title="How Whip builds your app"
+    icon="wand-sparkles"
+    href="/building/how-whip-builds-your-app"
+  >
+    What's happening during a build, and why it self-heals.
+  </Card>
+  <Card
+    title="Edit your app"
+    icon="pencil"
+    href="/building/edit-your-app"
+  >
+    Recover a failed edit and keep shaping your app in chat.
+  </Card>
+</CardGroup>

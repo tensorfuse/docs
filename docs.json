@@ -1,53 +1,170 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Whip Help Center",
+  "description": "The official Whip help center. Learn how to build, remix, publish, and share mini apps with AI on Whip — no code needed. Guides, FAQs, and what's new.",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#C60009",
+    "light": "#FF565E",
+    "dark": "#C60009"
   },
   "favicon": "/favicon.svg",
+  "appearance": {
+    "default": "light"
+  },
+  "background": {
+    "color": {
+      "light": "#F7F7F7",
+      "dark": "#0A0A0A"
+    }
+  },
+  "fonts": {
+    "heading": {
+      "family": "Satoshi",
+      "weight": 700,
+      "source": "https://cdn.fontshare.com/wf/LAFFD4SDUCDVQEXFPDC7C53EQ4ZELWQI/PXCT3G6LO6ICM5I3NTYENYPWJAECAWDD/GHM6WVH6MILNYOOCXHXB5GTSGNTMGXZR.woff2",
+      "format": "woff2"
+    },
+    "body": {
+      "family": "Satoshi",
+      "weight": 400,
+      "source": "https://cdn.fontshare.com/wf/TTX2Z3BF3P6Y5BQT3IV2VNOK6FL22KUT/7QYRJOI3JIMYHGY6CH7SOIFRQLZOLNJ6/KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.woff2",
+      "format": "woff2"
+    }
+  },
   "navigation": {
-    "pages": [
+    "tabs": [
       {
-        "group": "Getting Started",
+        "tab": "Help Center",
+        "groups": [
+          {
+            "group": "Get started",
+            "pages": [
+              "index",
+              "getting-started/download-and-sign-in",
+              "getting-started/set-up-your-profile",
+              "getting-started/create-your-first-app"
+            ]
+          },
+          {
+            "group": "Building apps",
+            "pages": [
+              "building/how-whip-builds-your-app",
+              "building/prompt-tips-and-ideas",
+              "building/edit-your-app",
+              "building/versions-and-history",
+              "building/attachments",
+              "building/what-apps-can-do",
+              "building/build-limits-and-failed-builds"
+            ]
+          },
+          {
+            "group": "Publishing & sharing",
+            "pages": [
+              "sharing/publish-your-app",
+              "sharing/highlight-reels",
+              "sharing/share-links",
+              "sharing/unpublish-and-archive"
+            ]
+          },
+          {
+            "group": "Discovering apps",
+            "pages": [
+              "discover/the-feed",
+              "discover/search",
+              "discover/remix-apps"
+            ]
+          },
+          {
+            "group": "Profiles & social",
+            "pages": [
+              "social/profiles",
+              "social/follow-like-save",
+              "social/comments",
+              "social/notifications"
+            ]
+          },
+          {
+            "group": "Using apps",
+            "pages": [
+              "using/open-and-use-apps",
+              "using/home-screen-and-folders",
+              "using/play-together",
+              "using/app-permissions",
+              "using/data-ai-and-consent"
+            ]
+          },
+          {
+            "group": "Account & safety",
+            "pages": [
+              "account/manage-your-account",
+              "account/age-requirements",
+              "account/privacy-and-data",
+              "account/block-users",
+              "account/report-content",
+              "account/delete-your-account"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "help/troubleshooting",
+              "help/contact"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "FAQ",
+        "groups": [
+          {
+            "group": "Frequently asked questions",
+            "pages": [
+              "faq/general",
+              "faq/creating-apps",
+              "faq/privacy-and-safety"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
         "pages": [
-          "index",
-          "quickstart"
+          "changelog"
         ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "whip.run",
+          "href": "https://whip.run",
+          "icon": "globe"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Community",
+          "href": "https://discord.com/invite/bsSeNMQkTZ",
+          "icon": "discord"
         }
       ]
     }
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://whip.run"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@whip.run"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Get the app",
+      "href": "https://whip.run"
     }
   },
   "contextual": {
@@ -56,17 +173,65 @@
       "view",
       "chatgpt",
       "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+      "perplexity"
     ]
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "thumbnails": {
+    "background": "/images/og-background.png"
+  },
+  "seo": {
+    "indexing": "all",
+    "metatags": {
+      "og:site_name": "Whip Help Center",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@joinwhip"
+    }
+  },
+  "search": {
+    "prompt": "Search Whip help…"
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+      "x": "https://x.com/joinwhip",
+      "instagram": "https://www.instagram.com/makewhips",
+      "discord": "https://discord.com/invite/bsSeNMQkTZ",
+      "youtube": "https://www.youtube.com/@joinwhip"
+    },
+    "links": [
+      {
+        "header": "Whip",
+        "items": [
+          {
+            "label": "Get the app",
+            "href": "https://whip.run"
+          },
+          {
+            "label": "TikTok",
+            "href": "https://www.tiktok.com/@joinwhip"
+          },
+          {
+            "label": "Support",
+            "href": "mailto:support@whip.run"
+          }
+        ]
+      },
+      {
+        "header": "Legal",
+        "items": [
+          {
+            "label": "Terms of Service",
+            "href": "https://whip.run/terms"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "https://whip.run/privacy"
+          }
+        ]
+      }
+    ]
   }
 }
