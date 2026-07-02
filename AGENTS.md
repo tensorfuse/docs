@@ -56,3 +56,7 @@
   images) and a descriptive filename; wrap screenshots in `<Frame caption="…">`.
 - Don't add a custom `robots.txt` or `sitemap.xml` — Mintlify's defaults allow AI crawlers
   (GPTBot, ClaudeBot, PerplexityBot) via Content-Signal, and a custom file replaces that.
+- `building/apis-and-libraries.mdx` mirrors two allowlists in the backend repo
+  (brahma-backend `brahma/chakra/constants.py`: `WHITELISTED_DEPENDENCIES` and
+  `NETWORK_FETCH_HOSTS_*`). When those change, update the page — and mention new
+  sources/libraries in the changelog. Never list package version numbers on the page.
