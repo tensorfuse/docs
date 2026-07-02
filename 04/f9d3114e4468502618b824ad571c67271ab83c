@@ -1,0 +1,30 @@
+icons/discord.svg
+  s_4b8f6cd46a0c59::t_57584d571d6989 1
+help/contact.mdx
+  s_4b8f6cd46a0c59::t_0e025f0a3d5265 47
+AGENTS.md
+  s_4b8f6cd46a0c59::t_d7afb51de9db68 33-37
+docs.json
+  s_4b8f6cd46a0c59::t_1cbbef34c4dfe5 149-151
+  s_4b8f6cd46a0c59::t_18a8ce7855cb96 165
+  s_4b8f6cd46a0c59::t_6f73d9aa401eb7 164
+  s_4b8f6cd46a0c59::t_92e5b205b2c4c6 12-14
+icons/instagram.svg
+  s_4b8f6cd46a0c59::t_57584d571d6989 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.8",
+  "base_commit_sha": "04f9d3114e4468502618b824ad571c67271ab83c",
+  "prompts": {},
+  "sessions": {
+    "s_4b8f6cd46a0c59": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "28bcca74-7f1f-4a55-9832-8aa0174f21c8",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": null
+    }
+  }
+}
