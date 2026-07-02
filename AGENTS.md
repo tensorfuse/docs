@@ -30,6 +30,11 @@
 - Every page ends with a `## Related` CardGroup (2 cards). 3–6 internal links per page.
 - Components: Steps for how-tos, AccordionGroup for FAQs, Tabs only for iOS/Android forks,
   CardGroup for navigation, Note/Tip/Warning callouts (1–3 per page).
+- Icons: `docs.json` sets `icons.library: "lucide"`, so every `icon="…"` must be a valid
+  [lucide](https://lucide.dev/icons) name (lowercase-kebab). Lucide has NO brand icons —
+  for a brand mark (Discord, Instagram, etc.) reference a local SVG path instead, e.g.
+  `icon="/icons/discord.svg"` (file under `icons/`, `fill="currentColor"` so it themes).
+  Don't mix in Font Awesome names — they won't render under the lucide library.
 
 ## Content boundaries
 

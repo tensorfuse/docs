@@ -9,6 +9,9 @@
     "dark": "#C60009"
   },
   "favicon": "/favicon.svg",
+  "icons": {
+    "library": "lucide"
+  },
   "appearance": {
     "default": "light"
   },
@@ -143,9 +146,9 @@
           "icon": "globe"
         },
         {
-          "anchor": "Support",
-          "href": "mailto:support@whip.run",
-          "icon": "life-buoy"
+          "anchor": "Discord",
+          "href": "https://discord.com/invite/bsSeNMQkTZ",
+          "icon": "/icons/discord.svg"
         }
       ]
     }
@@ -158,8 +161,8 @@
   "navbar": {
     "links": [
       {
-        "label": "Discord community",
-        "icon": "discord",
+        "label": "Discord",
+        "icon": "/icons/discord.svg",
         "href": "https://discord.com/invite/bsSeNMQkTZ"
       }
     ],
@@ -214,10 +217,6 @@
           {
             "label": "TikTok",
             "href": "https://www.tiktok.com/@joinwhip"
-          },
-          {
-            "label": "Support",
-            "href": "mailto:support@whip.run"
           }
         ]
       },
