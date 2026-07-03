@@ -1,0 +1,76 @@
+docs.json
+  s_4b8f6cd46a0c59::t_8d2e03e3d646d3 184-189
+  s_4b8f6cd46a0c59::t_3a6212ffdf2a0b 96
+building/edit-your-app.mdx
+  s_4b8f6cd46a0c59::t_21680d83d46213 98-99
+  s_4b8f6cd46a0c59::t_bab173bd2061ef 111
+  s_4b8f6cd46a0c59::t_4e5afd065eba9e 49
+  s_4b8f6cd46a0c59::t_be20afaeccf13d 89-90
+sharing/unpublish-and-archive.mdx
+  s_4b8f6cd46a0c59::t_aa28af0cf53fa2 2-4,12,16,18,20-23,25,27,29-37,39-42,44,46,48-55,57-62,64,67-76,78-81,93,96-98,100
+using/open-and-use-apps.mdx
+  s_4b8f6cd46a0c59::t_718f37a6ad7023 25-28
+  s_4b8f6cd46a0c59::t_a1fcd846173f99 111-112
+  s_4b8f6cd46a0c59::t_acbbb4822a9280 86-88
+faq/creating-apps.mdx
+  s_4b8f6cd46a0c59::t_0c0c1b5689c300 101-103
+  s_4b8f6cd46a0c59::t_4f08f97561f67f 50-53
+using/data-ai-and-consent.mdx
+  s_4b8f6cd46a0c59::t_85b933b0d177e6 49
+  s_4b8f6cd46a0c59::t_65e1885e2f670a 90-91
+changelog.mdx
+  s_4b8f6cd46a0c59::t_92ef40743f95a8 4
+  s_4b8f6cd46a0c59::t_b954b4f2d2eaad 47
+  s_4b8f6cd46a0c59::t_0c30658664a800 68
+building/versions-and-history.mdx
+  s_4b8f6cd46a0c59::t_a2b3e9b447801a 4,12,16,20,41,43,46-47,50-53,56-57,62-64,71,80-86
+account/privacy-and-data.mdx
+  s_4b8f6cd46a0c59::t_7e32e291b549e9 57-59
+account/delete-your-account.mdx
+  s_4b8f6cd46a0c59::t_2d5d64efd263f1 72,75-77
+  s_4b8f6cd46a0c59::t_971183dae49c8f 104,108
+sharing/share-links.mdx
+  s_4b8f6cd46a0c59::t_13842ca05943a2 42
+  s_4b8f6cd46a0c59::t_bde715e2a1d4d1 96,100
+  s_4b8f6cd46a0c59::t_0aba55452a9b17 59-61
+sharing/publish-your-app.mdx
+  s_4b8f6cd46a0c59::t_3d2659f1bcd7ed 94-96
+faq/privacy-and-safety.mdx
+  s_4b8f6cd46a0c59::t_6fccb8f9e5b821 113
+  s_4b8f6cd46a0c59::t_9d370028721cd9 32-35
+using/home-screen-and-folders.mdx
+  s_4b8f6cd46a0c59::t_bfaa08097bcb90 98-100
+social/profiles.mdx
+  s_4b8f6cd46a0c59::t_638f30af249744 37-38
+help/troubleshooting.mdx
+  s_4b8f6cd46a0c59::t_3a07d330c960b9 50-51
+faq/general.mdx
+  s_4b8f6cd46a0c59::t_d3bc88d455e0ea 117
+  s_4b8f6cd46a0c59::t_58245283aaf7e5 106-108
+using/leaderboards.mdx
+  s_4b8f6cd46a0c59::t_b39c4057d93ca9 1-92
+building/what-apps-can-do.mdx
+  s_4b8f6cd46a0c59::t_6bc5fa54a121d9 4,12,16
+  s_4b8f6cd46a0c59::t_535f2c4714316c 90-92,94
+  s_4b8f6cd46a0c59::t_e5ad60553084c4 67,69
+index.mdx
+  s_4b8f6cd46a0c59::t_f6c4c942633388 47
+social/notifications.mdx
+  s_4b8f6cd46a0c59::t_948ec1ad66bcac 45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "74ba1afd14538f9198c910939cde6886318ba748",
+  "prompts": {},
+  "sessions": {
+    "s_4b8f6cd46a0c59": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "28bcca74-7f1f-4a55-9832-8aa0174f21c8",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Samagra Sharma <samagra14@gmail.com>"
+    }
+  }
+}
