@@ -93,7 +93,7 @@
             "pages": [
               "using/open-and-use-apps",
               "using/home-screen-and-folders",
-              "using/play-together",
+              "using/leaderboards",
               "using/app-permissions",
               "using/data-ai-and-consent"
             ]
@@ -181,6 +181,12 @@
       "perplexity"
     ]
   },
+  "redirects": [
+    {
+      "source": "/using/play-together",
+      "destination": "/using/leaderboards"
+    }
+  ],
   "metadata": {
     "timestamp": true
   },
