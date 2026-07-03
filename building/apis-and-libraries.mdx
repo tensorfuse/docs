@@ -1,0 +1,165 @@
+---
+title: "Data sources and libraries Whip apps can use"
+sidebarTitle: "APIs & libraries"
+description: "The full list of live data sources (weather, Wikipedia, currency, trivia…) and building blocks (Three.js, PixiJS, physics, audio, charts) in Whip apps."
+icon: "plug"
+keywords:
+  [
+    "whip allowed apis",
+    "whip app data sources",
+    "whip three.js",
+    "whip supported libraries",
+    "what apis can whip apps use",
+  ]
+---
+
+Apps made on Whip draw from two curated toolkits: about **40 approved live data sources** they can fetch from (weather, Wikipedia, currency rates, trivia, art collections, and more), and a set of **professional building blocks** for graphics, games, sound, charts, and animation — including Three.js, PixiJS, and Matter.js. Here's the full menu.
+
+You never need to memorize any of this. Describe what you want — "a morning briefing with real weather" — and Whip picks the right pieces. But if you know exactly what you're after, you can ask by name: "build it with Three.js" works.
+
+## Live data sources
+
+Apps reach these through Whip's own servers — never the open internet — so every source is [safe, free, and keyless](/using/data-ai-and-consent). Where a source asks for credit, Whip's AI builds the attribution into your app automatically.
+
+<AccordionGroup>
+  <Accordion title="Weather & nature" icon="cloud-sun">
+    - **US National Weather Service** — forecasts and alerts
+    - **wttr.in** — worldwide weather
+    - **USGS** — live earthquake feeds
+    - **Sunrise–Sunset** — golden-hour times anywhere
+    - **GBIF** — biodiversity and species data
+  </Accordion>
+  <Accordion title="Knowledge & words" icon="book-open">
+    - **Wikipedia** and **Wikimedia Commons** — articles and images
+    - **Wikidata** — structured facts about nearly everything
+    - **Free Dictionary** — definitions
+    - **Datamuse** — rhymes and word-finding (poetry apps love this)
+    - **REST Countries** — flags, capitals, populations
+  </Accordion>
+  <Accordion title="Books, art & culture" icon="landmark">
+    - **The Met Museum** and the **Art Institute of Chicago** — open-access
+      artwork collections
+    - **Open Library** — book data and covers
+    - **Project Gutenberg** — public-domain books
+    - **PoetryDB** — classic poetry
+    - **NASA image library** — space photography
+    - **Internet Archive** — historical media
+  </Accordion>
+  <Accordion title="Music & media" icon="music">
+    - **iTunes Search** — songs, albums, podcasts
+    - **MusicBrainz** + **Cover Art Archive** — music metadata and album art
+    - **YouTube** — video thumbnails and privacy-friendly embeds
+  </Accordion>
+  <Accordion title="News & space" icon="newspaper">
+    - **Hacker News** — tech news and search
+    - **Spaceflight News** — launches and space headlines
+  </Accordion>
+  <Accordion title="Money, time & everyday utilities" icon="wrench">
+    - **Frankfurter** and **ExchangeRate** — live currency rates
+    - **TimeAPI** — time zones
+    - **Nager.Date** — public holidays worldwide
+    - **QR Server** — QR code generation
+  </Accordion>
+  <Accordion title="Fun & placeholders" icon="party-popper">
+    - **Open Trivia DB** — quiz questions by category
+    - **JokeAPI** and **icanhazdadjoke** — jokes on demand
+    - **Advice Slip** — fortune-cookie wisdom
+    - **DiceBear**, **Gravatar**, **UI Avatars** — generated avatars
+    - **Lorem Picsum**, **RandomUser**, **JSONPlaceholder** — stand-in
+      images and demo data
+  </Accordion>
+</AccordionGroup>
+
+<Note>
+  This is the complete list — if a source isn't on it, apps can't reach it,
+  which is [the safety rail](/using/data-ai-and-consent), not a bug. Separately,
+  Whip's AI can research the whole web **while building** your app and bake in
+  a snapshot of what it finds — that's how a "2026 movie quiz" gets real 2026
+  movies. The list grows over time; [the changelog](/changelog) announces new
+  sources.
+</Note>
+
+## Building blocks
+
+These are the professional libraries Whip's AI can build your app with — the same tools human developers use. Grouped by what they unlock:
+
+<AccordionGroup>
+  <Accordion title="3D worlds" icon="box">
+    **Three.js** (with React Three Fiber and Drei) — spinning planets, 3D
+    dice, product viewers, little explorable worlds.
+  </Accordion>
+  <Accordion title="2D games & physics" icon="joystick">
+    **PixiJS** for fast 2D graphics and **Matter.js** for real physics —
+    bouncing, stacking, colliding, toppling. Arcade games live here.
+  </Accordion>
+  <Accordion title="Motion & flair" icon="sparkles">
+    **Framer Motion** and **Anime.js** for silky animation,
+    **canvas-confetti** and **tsParticles** for celebrations and particle
+    effects, plus animated counters and typewriter text.
+  </Accordion>
+  <Accordion title="Sound" icon="volume-2">
+    **Howler** — sound effects and music that work the same on every phone.
+  </Accordion>
+  <Accordion title="Charts & data" icon="chart-line">
+    **Recharts** — line, bar, pie, and area charts for trackers, budgets, and
+    dashboards.
+  </Accordion>
+  <Accordion title="Touch & interaction" icon="hand">
+    **use-gesture** for swipes, pinches, and drags; **SortableJS** for
+    drag-to-reorder lists; **Embla** for smooth carousels.
+  </Accordion>
+  <Accordion title="Creative tools" icon="palette">
+    **perfect-freehand** for natural drawing and signatures, color pickers
+    and palette tools (**react-colorful**, **colord**), and **html-to-image**
+    for turning a view into a shareable picture.
+  </Accordion>
+  <Accordion title="Text, math & practical bits" icon="type">
+    Markdown rendering, code syntax highlighting (**Prism**), beautiful math
+    equations (**KaTeX**), QR codes, date handling (**date-fns**), toast
+    notifications, and thousands of icons (**Lucide**).
+  </Accordion>
+</AccordionGroup>
+
+Under it all, every app is built with **React** and styled with **Tailwind CSS** — the same foundations behind much of the modern web. That's what makes [what you build real](/building/how-whip-builds-your-app), not a mockup.
+
+## Common questions
+
+<AccordionGroup>
+  <Accordion title="Do I need to know these tools to use Whip?" icon="circle-help">
+    Not at all. Describe the result you want and Whip chooses the right
+    building blocks. Naming a library is a power move for people who already
+    have one in mind — never a requirement. Start with
+    [prompt tips](/building/prompt-tips-and-ideas) instead.
+  </Accordion>
+  <Accordion title="Can an app use a data source that isn't listed?" icon="globe-lock">
+    No — the list is a hard boundary, enforced by Whip's servers. It keeps a
+    stranger's app from sending your data somewhere sketchy. If you want live
+    data from something not listed, ask in the
+    [Discord](https://discord.com/invite/bsSeNMQkTZ) — new sources get added
+    over time.
+  </Accordion>
+  <Accordion title="Why did my app show a credit line I didn't add?" icon="badge-check">
+    Some sources (Wikipedia, museum collections, trivia databases) require
+    attribution. Whip's AI adds those credits automatically so your app plays
+    by the rules.
+  </Accordion>
+</AccordionGroup>
+
+## Related
+
+<CardGroup cols={2}>
+  <Card
+    title="What apps can do"
+    icon="rocket"
+    href="/building/what-apps-can-do"
+  >
+    The full superpower tour: saving data, AI chat, leaderboards, and more.
+  </Card>
+  <Card
+    title="Your data, AI & consent"
+    icon="shield-check"
+    href="/using/data-ai-and-consent"
+  >
+    How internet access stays safe — and what you're consenting to.
+  </Card>
+</CardGroup>

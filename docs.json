@@ -9,6 +9,9 @@
     "dark": "#C60009"
   },
   "favicon": "/favicon.svg",
+  "icons": {
+    "library": "lucide"
+  },
   "appearance": {
     "default": "light"
   },
@@ -55,6 +58,7 @@
               "building/versions-and-history",
               "building/attachments",
               "building/what-apps-can-do",
+              "building/apis-and-libraries",
               "building/build-limits-and-failed-builds"
             ]
           },
@@ -142,9 +146,9 @@
           "icon": "globe"
         },
         {
-          "anchor": "Community",
+          "anchor": "Discord",
           "href": "https://discord.com/invite/bsSeNMQkTZ",
-          "icon": "discord"
+          "icon": "/icons/discord.svg"
         }
       ]
     }
@@ -157,8 +161,9 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@whip.run"
+        "label": "Discord",
+        "icon": "/icons/discord.svg",
+        "href": "https://discord.com/invite/bsSeNMQkTZ"
       }
     ],
     "primary": {
@@ -212,10 +217,6 @@
           {
             "label": "TikTok",
             "href": "https://www.tiktok.com/@joinwhip"
-          },
-          {
-            "label": "Support",
-            "href": "mailto:support@whip.run"
           }
         ]
       },

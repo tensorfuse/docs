@@ -30,6 +30,11 @@
 - Every page ends with a `## Related` CardGroup (2 cards). 3–6 internal links per page.
 - Components: Steps for how-tos, AccordionGroup for FAQs, Tabs only for iOS/Android forks,
   CardGroup for navigation, Note/Tip/Warning callouts (1–3 per page).
+- Icons: `docs.json` sets `icons.library: "lucide"`, so every `icon="…"` must be a valid
+  [lucide](https://lucide.dev/icons) name (lowercase-kebab). Lucide has NO brand icons —
+  for a brand mark (Discord, Instagram, etc.) reference a local SVG path instead, e.g.
+  `icon="/icons/discord.svg"` (file under `icons/`, `fill="currentColor"` so it themes).
+  Don't mix in Font Awesome names — they won't render under the lucide library.
 
 ## Content boundaries
 
@@ -56,3 +61,7 @@
   images) and a descriptive filename; wrap screenshots in `<Frame caption="…">`.
 - Don't add a custom `robots.txt` or `sitemap.xml` — Mintlify's defaults allow AI crawlers
   (GPTBot, ClaudeBot, PerplexityBot) via Content-Signal, and a custom file replaces that.
+- `building/apis-and-libraries.mdx` mirrors two allowlists in the backend repo
+  (brahma-backend `brahma/chakra/constants.py`: `WHITELISTED_DEPENDENCIES` and
+  `NETWORK_FETCH_HOSTS_*`). When those change, update the page — and mention new
+  sources/libraries in the changelog. Never list package version numbers on the page.
